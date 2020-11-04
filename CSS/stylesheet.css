@@ -1,0 +1,104 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(5fr, 1fr);
+    grid-template-rows: repeat(5fr, 1fr);
+    grid-gap: 0.5em;
+}
+
+.wrapper > div{
+    padding: 1em;
+}
+
+.box1{
+    background-color: rgb(114, 96, 85) ;
+    grid-column: span 5;
+    grid-row: span 10;
+}
+
+.box2{
+    background-color: darkgray;
+    grid-column: span 1;
+    grid-row: span 35;
+    padding: 0;
+    margin: 0;
+}
+
+.box3{
+    background-color: rgb(216, 216, 197);
+    grid-column: span 4;
+    grid-row: span 35;
+}
+
+.box4{
+    background-color: rgb(221, 147, 147);
+    grid-column: span 5;
+    grid-row: span 13;
+}
+
+.boxheader{
+    font-size: 35px;
+    text-align: center;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox-item{
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+h5{
+    float: right;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+h4{
+    float:left;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.message-box{
+    text-align: center;
+}
+
+.box2 > ul{
+    margin-left: 20px;
+}
+
+h3{
+    padding-left:0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.button1{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button2{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
